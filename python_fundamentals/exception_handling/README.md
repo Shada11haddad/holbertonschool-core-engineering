@@ -1,0 +1,1 @@
+Real-world programs must be resilient. Inputs may be invalid, data may be missing, and operations may fail unexpectedly. Exception handling allows a program to detect errors, respond appropriately, and continue execution safely when possible.
