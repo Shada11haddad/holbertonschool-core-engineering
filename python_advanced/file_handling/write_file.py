@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""
+Module that defines write_file
+"""
+
+
+def write_file(filename="", text=""):
+    """
+    Writes a string to a UTF-8 text file, creating or overwriting it,
+    and returns the number of characters written.
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
